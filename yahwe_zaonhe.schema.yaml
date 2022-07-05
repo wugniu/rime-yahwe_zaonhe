@@ -107,7 +107,7 @@ speller:
     # - derive/^r$/er/
     # - abbrev/^nyi(?=[nh]$|$)/gni/
     # - abbrev/^ny(?=[aeou])/gni/
-    # - derive/ui(nh)$/u/
+    # - derive/ui(?=[nh]$)/u/
     # - derive/h$/q/
 
 translator:
