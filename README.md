@@ -1,6 +1,8 @@
 <p align="center"><img src="https://cdn.jsdelivr.net/gh/edward-martyr/rime-yahwe_zaonhe@add3661/images/logo.svg?sanitize=true" height="120"/></p>
 
-# rime-yahwe_zaonhe：<ruby>吳語協會式上海話輸入法<rt><ruby>Ngnyu<rt>Wunyu</ruby> <ruby>Yahweseh<rt>Yihweseh</ruby> <ruby>Zaonhegho<rt>Zanhegho</ruby> <ruby>Syzehfah<rt>Syuzehfah</ruby></ruby>
+# rime-yahwe_zaonhe：<ruby>吳語協會式上海話輸入法<rt><ruby>Wunyu<rt>Ngnyu</ruby> <ruby>Yahweseh<rt>Yihweseh</ruby> <ruby>Zaonhegho<rt>Zanhegho</ruby> <ruby>Syzehfah<rt>Syuzehfah</ruby></ruby>
+
+℞ **wugniu/rime-yahwe_zaonhe**
 
 [Plum 給出的吳語拼音方案](<https://github.com/rime/rime-wugniu>)是法吳的，並不一定適合所有的用戶。這個 repo 把  Plum  方案中的 `wugniu_lopha.dict.yaml` 的拼音全部轉化爲[吳語協會式拼音](<http://wu-chinese.com/romanization/>)（稍有改動，詳見下附知乎介紹鏈接），望能方便更多用戶、使用面更廣。簡介另見知乎上的介紹文章<https://zhuanlan.zhihu.com/p/62118563> 以及 <https://zhuanlan.zhihu.com/p/78791101>。
 
@@ -9,6 +11,8 @@
 | ![示例1](https://cdn.jsdelivr.net/gh/edward-martyr/rime-yahwe_zaonhe@add3661/images/gifsample2.gif) | ![示例2](https://cdn.jsdelivr.net/gh/edward-martyr/rime-yahwe_zaonhe@add3661/images/gifsample1.gif) |
 
 ## <ruby>更新須知<rt>Kensin Siutsy</ruby>
+
+`2022.07.05` 版本起移至[本倉庫](https://github.com/wugniu)。同時建議配合 [rime-qieyun_zaonhe](https://github.com/wugniu/rime-qieyun_zaonhe) 詞典使用來輸入生僻字。
 
 `2020.03.15` 版本起不再使用 `h` 作爲 `'` 的替代（如用 `lhin` 表示吳語拼音 `'lin`），改用 `;` 替換 `'`（直接使用引號鍵的話導致引號難以輸入以及無法用其分詞），並以冒號鍵輸入冒號*及*分號。繼續使用舊版本的話請安裝 `yahwe_zaonhe_jieupaepen`。
 
@@ -32,7 +36,7 @@ curl -fsSL https://git.io/rime-install | bash
 
 ```bash
 cd plum
-bash rime-install edward-martyr/rime-yahwe_zaonhe
+bash rime-install wugniu/rime-yahwe_zaonhe
 ```
 
 未安裝過 rime 基本包的用戶請再輸入一行：
@@ -43,7 +47,7 @@ bash rime-install :preset
 
 #### <ruby>Windows<rt>溫濤水</ruby>
 
-調出`【小狼毫】方案選單設定` 的頁面，點擊「獲取更多輸入方案」，在跳出的窗口中輸入 `edward-martyr/rime-yahwe_zaonhe`。
+調出`【小狼毫】方案選單設定` 的頁面，點擊「獲取更多輸入方案」，在跳出的窗口中輸入 `wugniu/rime-yahwe_zaonhe`。
 
 #### <ruby>安卓<rt>Oetsoh</ruby>
 
